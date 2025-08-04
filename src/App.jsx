@@ -1,6 +1,7 @@
 import './App.css'
 import CreatePost from './components/CreatePost'
 import FindDeletePost from './components/FindDeletePost'
+import UpdatePost from './components/UpdatePost'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <CreatePost/>
       <FindDeletePost/>
+      <UpdatePost/>
     </>
   )
 }
